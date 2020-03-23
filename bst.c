@@ -50,7 +50,7 @@ void preorder(struct node *root)
     if(root!=NULL)
     {
         printf("%c ",root->data);
-        preorderroot->left);
+        preorder(root->left);
         preorder(root->right);
     }
 }
