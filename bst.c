@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -35,7 +34,7 @@ struct node* insert(struct node* node, char data )
     return node;
 }
 
-void inorder(struct node *root)
+void inorder(struct node *root)            //INORDER TRAVERSAL
 {
     if(root!=NULL)
     {
@@ -45,7 +44,7 @@ void inorder(struct node *root)
     }
 }
 
-void preorder(struct node *root)
+void preorder(struct node *root)          //PREORDER TRAVERSAL
 {
     if(root!=NULL)
     {
@@ -55,7 +54,7 @@ void preorder(struct node *root)
     }
 }
 
-void postorder(struct node *root)
+void postorder(struct node *root)        //POSTORDER TRAVERSAL
 {
     if(root!=NULL)
     {
